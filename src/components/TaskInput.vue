@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref } from "vue";
-import Button from "./UI/Button.vue";
+import Button from "components/UI/Button.vue";
 
 const emit = defineEmits(["onCreateTask"]);
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import { Task } from "./interfaces/task";
+import { Task } from "interfaces/task";
 import TaskList from "components/TaskList.vue";
 import TaskInput from "components/TaskInput.vue";
 

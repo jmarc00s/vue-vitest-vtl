@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Task } from "../interfaces/task";
+import { Task } from "interfaces/task";
 
 defineProps<{ task: Task }>();
 </script>
