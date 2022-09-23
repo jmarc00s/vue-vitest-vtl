@@ -17,7 +17,7 @@ const handleCreateTask = (description: string): void => {
 </script>
 
 <template>
-  <h1>Task App vue3</h1>
+  <h1 class="text-3xl font-bold">Task App vue3</h1>
   <TaskInput @on-create-task="handleCreateTask" />
   <TaskList :tasks="tasks" />
 </template>
