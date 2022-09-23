@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import { Task } from "interfaces/task";
 import TaskList from "components/TaskList.vue";
-import TaskInput from "components/TaskInput.vue";
+import TaskForm from "components/TaskForm.vue";
 
 const tasks = ref<Task[]>([
   {

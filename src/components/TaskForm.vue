@@ -7,7 +7,7 @@ const emit = defineEmits(["onCreateTask"]);
 let description = ref("");
 
 const handleCreateTask = () => {
-  if (!description.value) return;
+  if (!description.value) return; 
   emit("onCreateTask", description.value);
   description.value = "";
 };
@@ -15,7 +15,7 @@ const handleCreateTask = () => {
 
 <template>
   <form @submit.prevent="handleCreateTask" class="flex justify-center py-4">
-    <input type="text" name="value" id="value" v-model="description" />
+    <input data-testid="task-input" type="text" name="value" id="value" v-model="description" />
     <Button>Create task</Button>
   </form>
 </template>
